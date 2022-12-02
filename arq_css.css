@@ -1,0 +1,89 @@
+#caixa 
+{ width: 1500px; 
+height: 700px; 
+right:150px;
+margin: 15px;
+}
+
+body
+{
+   
+    background-image: url(site.jpeg);
+ 
+ 
+   
+}
+#estrela
+{width:180px;
+     height:125px
+}
+#topo 
+{ 
+    
+    width: 960px; 
+height: 125px; 
+background-color: #690f69;
+margin: 5px;}
+
+#corpo 
+{ width: 960px;
+height:2300px; 
+background-color: #4f0e50;
+color: #df96df;
+margin: 5px;
+border: #c763ee;}
+
+#rodape 
+{ width: 960px; 
+height: 125px;
+margin: 5px;
+background-color: #2c0922;
+color: #ffdbff;}
+
+#enquete 
+{ width: 470px;
+height: 1000px;
+left: 990px;
+position: absolute;
+margin: 5px;
+top: 40px;
+background-color: #361735;}
+a
+{
+   color:#e1a
+}
+
+a:hover {
+    color: pink;
+    text-decoration: none;
+  }
+ul 
+{margin: 0;
+padding: 20px;
+list-style: none;
+width: 200px;}
+
+ul li 
+{position: relative;}
+
+li ul 
+{position: absolute;
+left: 200px;
+top: 0;
+display: none;}
+
+ul li a
+{display: block;
+text-decoration: none;
+color:#881c86 ;
+background: #fff;
+padding: 5px;
+border: 1px solid #ccc;}
+
+li:hover ul 
+{ display: block; }
+
+ul li a:hover
+{text-decoration:underline;
+font-weight: bold; 
+background: #c763ee; }
